@@ -17,10 +17,10 @@
     <EditText
         android:id="@+id/editText_main"
         android:layout_width="match_parent"
-        android:layout_toStartOf="@id/button_main"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/button_main"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/enter_your_message_here" />
+        android:hint="@string/type_a_message"
+        android:inputType="textPersonName" />
 </RelativeLayout>
